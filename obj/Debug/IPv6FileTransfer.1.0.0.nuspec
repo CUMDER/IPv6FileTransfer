@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>IPv6FileTransfer</id>
+    <version>1.0.0</version>
+    <authors>IPv6FileTransfer</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="d9a0d6e465b82511e750aa53ecbcf6a1f121417f" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\B\VS2022Release\IPv6FileTransfer\bin\Debug\net8.0-windows\IPv6FileTransfer.runtimeconfig.json" target="lib\net8.0-windows7.0\IPv6FileTransfer.runtimeconfig.json" />
+    <file src="D:\B\VS2022Release\IPv6FileTransfer\bin\Debug\net8.0-windows\IPv6FileTransfer.dll" target="lib\net8.0-windows7.0\IPv6FileTransfer.dll" />
+  </files>
+</package>
